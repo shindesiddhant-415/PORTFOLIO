@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --cyber-red: #FF3B30;
+    --cyber-bg: #0A0A0B;
+  }
+
+  body {
+    background-color: #0A0A0B;
+    color: #F4F4F5;
+    font-family: 'Inter', sans-serif;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0A0A0B;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #27272A;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 59, 48, 0.2);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #FF3B30;
+  }
+}
+
+/* Cyber Terminal Background Grid & Noise */
+.cyber-grid-bg {
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(255, 59, 48, 0.12) 0%, transparent 60%),
+    radial-gradient(circle at 85% 30%, rgba(56, 189, 248, 0.04) 0%, transparent 40%),
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 48px 48px, 48px 48px;
+}
+
+/* Subtle scanline overlay */
+.cyber-scanlines {
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.25) 50%
+  ), linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 0.03),
+    rgba(0, 255, 0, 0.01),
+    rgba(0, 0, 255, 0.03)
+  );
+  background-size: 100% 4px, 6px 100%;
+  pointer-events: none;
+}
+
+/* Stroke / Outlined text for giant background "PORTFOLIO" word */
+.text-outline {
+  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.07);
+  color: transparent;
+}
+
+.text-outline-red {
+  -webkit-text-stroke: 1.5px rgba(255, 59, 48, 0.2);
+  color: transparent;
+}
+
+/* Red Duotone Blend for Profile / Avatar */
+.red-duotone {
+  position: relative;
+}
+.red-duotone::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255, 59, 48, 0.4) 0%, rgba(10, 10, 11, 0.7) 100%);
+  mix-blend-mode: color;
+  pointer-events: none;
+}
+
+/* Cyber card borders & glows */
+.cyber-card-glow {
+  position: relative;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cyber-card-glow:hover {
+  border-color: rgba(255, 59, 48, 0.55);
+  box-shadow: 0 10px 30px -10px rgba(255, 59, 48, 0.25);
+  transform: translateY(-3px);
+}
+
+/* Hairline borders */
+.border-hairline {
+  border: 1px solid rgba(255, 59, 48, 0.22);
+}
+
+.border-hairline-subtle {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}

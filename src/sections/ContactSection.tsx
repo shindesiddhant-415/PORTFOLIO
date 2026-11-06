@@ -12,7 +12,7 @@ import confetti from "canvas-confetti";
 import { TerminalSectionHeader } from "../components/TerminalSectionHeader";
 import { profileData } from "../data/profile";
 import type { ToastMessage } from "../components/Toast";
-import { GithubIcon, LinkedinIcon, CodolioIcon, CodeChefIcon } from "../components/SocialIcons";
+import { GithubIcon, LinkedinIcon, LeetCodeIcon, CodolioIcon, CodeChefIcon } from "../components/SocialIcons";
 
 interface ContactSectionProps {
   onAddToast: (toast: Omit<ToastMessage, "id">) => void;
@@ -212,6 +212,18 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onAddToast }) =>
               <LinkedinIcon className="w-4 h-4 text-cyber-cyan" />
               <span>LINKEDIN</span>
             </a>
+
+            {profileData.contact.leetcode && (
+              <a
+                href={profileData.contact.leetcode}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-3.5 py-2 rounded-lg bg-cyber-card border border-white/10 text-xs font-mono text-cyber-muted hover:text-white hover:border-cyber-red/50 transition-colors"
+              >
+                <LeetCodeIcon className="w-4 h-4 text-amber-500" />
+                <span>LEETCODE</span>
+              </a>
+            )}
 
             {profileData.contact.codolio && (
               <a

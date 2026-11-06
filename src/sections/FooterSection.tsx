@@ -2,7 +2,7 @@ import React from "react";
 import { ArrowUp, Mail } from "lucide-react";
 import { profileData } from "../data/profile";
 import { navItems } from "../data/navigation";
-import { GithubIcon, LinkedinIcon, CodolioIcon, CodeChefIcon } from "../components/SocialIcons";
+import { GithubIcon, LinkedinIcon, LeetCodeIcon, CodolioIcon, CodeChefIcon } from "../components/SocialIcons";
 
 export const FooterSection: React.FC = () => {
   const scrollToTop = () => {
@@ -66,6 +66,19 @@ export const FooterSection: React.FC = () => {
             >
               <LinkedinIcon className="w-4 h-4" />
             </a>
+
+            {profileData.contact.leetcode && (
+              <a
+                href={profileData.contact.leetcode}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 rounded bg-black/60 border border-white/5 hover:border-cyber-red/50 hover:text-white transition-colors"
+                aria-label="LeetCode Profile"
+                title="LeetCode: Siddhant-415"
+              >
+                <LeetCodeIcon className="w-4 h-4 text-amber-500" />
+              </a>
+            )}
 
             {profileData.contact.codolio && (
               <a

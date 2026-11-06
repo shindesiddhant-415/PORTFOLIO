@@ -10,7 +10,7 @@ import {
 import { profileData } from "../data/profile";
 import { StatsCounter } from "../components/StatsCounter";
 import { DuotoneAvatar } from "../components/DuotoneAvatar";
-import { GithubIcon, LinkedinIcon, CodolioIcon, CodeChefIcon } from "../components/SocialIcons";
+import { GithubIcon, LinkedinIcon, LeetCodeIcon, CodolioIcon, CodeChefIcon } from "../components/SocialIcons";
 
 export const HeroSection: React.FC = () => {
   return (
@@ -142,6 +142,19 @@ export const HeroSection: React.FC = () => {
                 >
                   <LinkedinIcon className="w-4 h-4" />
                 </a>
+
+                {profileData.contact.leetcode && (
+                  <a
+                    href={profileData.contact.leetcode}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-3 rounded-lg bg-cyber-card border border-cyber-cardBorder/60 text-cyber-muted hover:text-white hover:border-cyber-red/50 transition-colors"
+                    aria-label="LeetCode Profile"
+                    title="LeetCode: Siddhant-415"
+                  >
+                    <LeetCodeIcon className="w-4 h-4 text-amber-500" />
+                  </a>
+                )}
 
                 {profileData.contact.codolio && (
                   <a

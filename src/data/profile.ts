@@ -32,6 +32,7 @@ export interface ProfileData {
     phone?: string;
     github: string;
     linkedin: string;
+    leetcode?: string;
     codolio?: string;
     codechef?: string;
     twitter?: string;
@@ -93,6 +94,7 @@ export const profileData: ProfileData = {
     phone: "+91 7350318481",
     github: "https://github.com/shindesiddhant-415",
     linkedin: "https://www.linkedin.com/in/siddhant-shinde-/",
+    leetcode: "https://leetcode.com/u/Siddhant-415/",
     codolio: "https://codolio.com/profile/Siddhant415",
     codechef: "https://www.codechef.com/users/siddhant415",
   },

@@ -1,6 +1,4 @@
 import { useState } from "react";
-import { AnimatePresence } from "framer-motion";
-import { TerminalBootIntro } from "./components/TerminalBootIntro";
 import { ScrollProgressBar } from "./components/ScrollProgressBar";
 import { Navbar } from "./components/Navbar";
 import { Toast, type ToastMessage } from "./components/Toast";
@@ -15,7 +13,6 @@ import { ContactSection } from "./sections/ContactSection";
 import { FooterSection } from "./sections/FooterSection";
 
 export function App() {
-  const [bootComplete, setBootComplete] = useState(false);
   const [toasts, setToasts] = useState<ToastMessage[]>([]);
 
   const handleAddToast = (toast: Omit<ToastMessage, "id">) => {
@@ -35,13 +32,6 @@ export function App() {
 
   return (
     <div className="relative min-h-screen bg-cyber-bg text-cyber-text cyber-grid-bg font-sans selection:bg-cyber-red selection:text-white">
-      {/* Boot Screen Terminal Intro */}
-      <AnimatePresence>
-        {!bootComplete && (
-          <TerminalBootIntro onComplete={() => setBootComplete(true)} />
-        )}
-      </AnimatePresence>
-
       {/* Top Scroll Progress Indicator */}
       <ScrollProgressBar />
 

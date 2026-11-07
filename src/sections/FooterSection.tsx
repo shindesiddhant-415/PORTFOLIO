@@ -22,7 +22,7 @@ export const FooterSection: React.FC = () => {
               <span className="font-heading font-bold text-white text-base tracking-tight">
                 {profileData.name}
               </span>
-              <span className="text-cyber-red text-xs">// DEV</span>
+              <span className="text-cyber-red text-xs">• PORTFOLIO</span>
             </div>
             <p className="text-[11px] text-cyber-dim font-sans max-w-sm">
               Computer Science Engineering student at MIT Academy of Engineering, Pune.
@@ -133,7 +133,7 @@ export const FooterSection: React.FC = () => {
 
           <div className="flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
-            <span>SYS_STATUS: NOMINAL</span>
+            <span>PUNE, MAHARASHTRA</span>
             <span>•</span>
             <span>CLASS OF 2028</span>
           </div>

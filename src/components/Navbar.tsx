@@ -52,10 +52,10 @@ export const Navbar: React.FC = () => {
           <div className="flex flex-col">
             <span className="text-xs font-bold text-white tracking-widest flex items-center gap-1.5">
               <span>SIDDHANT</span>
-              <span className="text-cyber-red">//</span>
-              <span className="text-cyber-muted font-normal">DEV</span>
+              <span className="text-cyber-red">•</span>
+              <span className="text-cyber-muted font-normal">PORTFOLIO</span>
             </span>
-            <span className="text-[9px] text-cyber-dim tracking-wider">CSE_SYS_2028</span>
+            <span className="text-[9px] text-cyber-dim tracking-wider">B.Tech CSE '28</span>
           </div>
         </a>
 
@@ -143,7 +143,7 @@ export const Navbar: React.FC = () => {
                   className="flex items-center justify-between py-2 px-3 rounded hover:bg-cyber-card/80 text-cyber-muted hover:text-white transition-colors"
                 >
                   <span>{item.label}</span>
-                  <span className="text-[10px] text-cyber-red">{item.terminalCode.split(" ")[0]}</span>
+                  <span className="text-[10px] text-cyber-red font-mono">{item.code}</span>
                 </a>
               ))}
 

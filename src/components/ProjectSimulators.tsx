@@ -27,11 +27,11 @@ export const SovereignAISimulator: React.FC = () => {
         <div className="flex items-center gap-2">
           <Shield className="w-4 h-4 text-emerald-400" />
           <span className="text-white font-semibold tracking-wider text-[11px]">
-            SOVEREIGN_AI // SIH_MRPL_26117
+            SOVEREIGN AI • SIH MRPL 26117
           </span>
         </div>
         <span className="text-[10px] text-emerald-400 bg-emerald-950/60 border border-emerald-500/30 px-2 py-0.5 rounded flex items-center gap-1">
-          <Lock className="w-3 h-3" /> AIR-GAPPED [ZERO NETWORK]
+          <Lock className="w-3 h-3" /> AIR-GAPPED • ZERO NETWORK
         </span>
       </div>
 
@@ -167,7 +167,7 @@ export const CropAISimulator: React.FC = () => {
         <div className="flex items-center gap-2">
           <span className="w-2 h-2 rounded-full bg-cyber-red animate-pulse" />
           <span className="text-white font-semibold tracking-wider text-[11px]">
-            MOBILENET_V2 // TRANSFER_LEARNING
+            MOBILENET_V2 • TRANSFER LEARNING
           </span>
         </div>
         <span className="text-[10px] text-cyber-muted">BACKEND: Flask + Node.js</span>
@@ -275,7 +275,7 @@ export const JoystickSimulator: React.FC = () => {
         <div className="flex items-center gap-2">
           <Gamepad2 className="w-4 h-4 text-cyber-red" />
           <span className="text-white font-semibold tracking-wider text-[11px]">
-            SERIAL_TELEMETRY // ARDUINO_UNO
+            SERIAL COMMUNICATION • ARDUINO UNO
           </span>
         </div>
         <span className="text-[10px] text-emerald-400 flex items-center gap-1">
@@ -355,7 +355,7 @@ export const CloudLabsSimulator: React.FC = () => {
         <div className="flex items-center gap-2">
           <Cloud className="w-4 h-4 text-cyber-cyan" />
           <span className="text-white font-semibold tracking-wider text-[11px]">
-            LEARNING_LAB // AWS & LINUX LABS
+            AWS & LINUX LEARNING LABS
           </span>
         </div>
         <span className="text-[10px] text-cyber-muted">REGION: ap-south-1</span>

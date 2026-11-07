@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 interface TerminalSectionHeaderProps {
   badge: string;
-  terminalCode: string;
+  terminalCode?: string;
   title: string;
   highlightWord?: string;
   description?: string;
@@ -33,7 +33,7 @@ export const TerminalSectionHeader: React.FC<TerminalSectionHeaderProps> = ({
 
   return (
     <div className={`mb-12 md:mb-16 ${isCentered ? "text-center mx-auto max-w-2xl" : "max-w-3xl"}`}>
-      {/* Terminal Tag + Code Row */}
+      {/* Clean Modern Badge Row */}
       <motion.div
         initial={{ opacity: 0, y: 12 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -43,17 +43,17 @@ export const TerminalSectionHeader: React.FC<TerminalSectionHeaderProps> = ({
           isCentered ? "justify-center" : "justify-start"
         }`}
       >
-        {/* Tiny uppercase red mono tag with a dot */}
-        <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-cyber-redMuted border border-cyber-red/30 text-cyber-red font-semibold uppercase tracking-widest text-[11px]">
+        {/* Crisp red pill badge with glowing dot */}
+        <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyber-redMuted border border-cyber-red/30 text-cyber-red font-semibold uppercase tracking-wider text-[11px]">
           <span className="w-1.5 h-1.5 rounded-full bg-cyber-red animate-pulse" />
           {badge}
         </span>
 
-        {/* Terminal Marker with blinking cursor */}
-        <span className="text-cyber-muted text-[11px] tracking-wider flex items-center gap-1">
-          <span>{terminalCode}</span>
-          <span className="inline-block w-1.5 h-3 bg-cyber-red animate-cursor-blink" />
-        </span>
+        {terminalCode && (
+          <span className="text-cyber-dim text-[11px] font-mono tracking-wider">
+            {terminalCode}
+          </span>
+        )}
       </motion.div>
 
       {/* Main Heading */}
@@ -93,4 +93,3 @@ export const TerminalSectionHeader: React.FC<TerminalSectionHeaderProps> = ({
     </div>
   );
 };
-

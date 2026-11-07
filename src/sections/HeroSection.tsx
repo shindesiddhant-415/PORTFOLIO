@@ -30,18 +30,6 @@ export const HeroSection: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           {/* Left Column: Headline, Bio, CTAs, Stats (7 cols) */}
           <div className="lg:col-span-7 space-y-6">
-            {/* Terminal Index Marker */}
-            <motion.div
-              initial={{ opacity: 0, y: 15 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4 }}
-              className="flex items-center gap-2 font-mono text-xs text-cyber-muted"
-            >
-              <span className="text-cyber-red font-bold">›</span>
-              <span className="tracking-wider">//00.00 SYS_INIT // RUNTIME_ACTIVE</span>
-              <span className="w-1.5 h-3 bg-cyber-red animate-cursor-blink" />
-            </motion.div>
-
             {/* Handwritten "Hello, I'm" solid red block & Name */}
             <div className="space-y-3">
               <motion.div
@@ -225,7 +213,7 @@ export const HeroSection: React.FC = () => {
 
       {/* Down Scroll Arrow Indicator */}
       <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 text-cyber-dim font-mono text-[10px] pointer-events-none">
-        <span>SCROLL // EXPLORE</span>
+        <span>SCROLL TO EXPLORE</span>
         <ArrowDown className="w-3.5 h-3.5 text-cyber-red animate-bounce" />
       </div>
     </section>

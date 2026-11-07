@@ -40,7 +40,7 @@ export const ArchitectureDiagram: React.FC<ArchitectureDiagramProps> = ({
         <div className="flex items-center gap-2">
           <span className="w-2 h-2 rounded-full bg-cyber-red animate-ping" />
           <span className="text-white font-semibold tracking-wider text-[11px]">
-            SYSTEM_DATAFLOW // PIPELINE ARCHITECTURE
+            SYSTEM ARCHITECTURE PIPELINE
           </span>
         </div>
         <span className="text-cyber-muted text-[10px] hidden sm:inline">END-TO-END INFERENCE</span>

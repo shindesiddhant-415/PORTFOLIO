@@ -15,7 +15,6 @@ export const JourneySection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <TerminalSectionHeader
           badge="LEARNING LOG"
-          terminalCode="//05.00 SEC_JOURNEY_LOG"
           title="Continuous Growth & Technical Milestones."
           highlightWord="Continuous Growth"
           description="Documenting ongoing DSA problem solving, systems administration experiments, and practical machine learning engineering."

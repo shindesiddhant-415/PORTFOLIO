@@ -131,7 +131,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onAddToast }) =>
           });
           onAddToast({
             type: "success",
-            title: "Transmission Received!",
+            title: "Message Sent!",
             message: "Thank you for reaching out. I'll get back to you shortly.",
           });
         } else {
@@ -140,10 +140,10 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onAddToast }) =>
         }
       }
     } catch (err: any) {
-      setFormError(err.message || "Failed to deliver transmission. Please email directly.");
+      setFormError(err.message || "Failed to deliver message. Please email directly.");
       onAddToast({
         type: "error",
-        title: "Transmission Error",
+        title: "Message Error",
         message: err.message || "Could not reach contact endpoint.",
       });
     } finally {
@@ -158,8 +158,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onAddToast }) =>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <TerminalSectionHeader
-          badge="DISPATCH COMMUNICATION"
-          terminalCode="//06.00 SEC_CONTACT_DISP"
+          badge="GET IN TOUCH"
           title="Initiate Contact & Collaboration."
           highlightWord="Collaboration"
           description="Looking for internships, open-source projects, and engineering conversations. Feel free to reach out directly."
@@ -262,9 +261,9 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onAddToast }) =>
             <div className="flex items-center justify-between pb-4 mb-6 border-b border-white/5 font-mono text-xs">
               <div className="flex items-center gap-2 text-white font-semibold">
                 <Terminal className="w-4 h-4 text-cyber-red" />
-                <span>DIRECT_TRANSMISSION_FORM</span>
+                <span>SEND A MESSAGE</span>
               </div>
-              <span className="text-cyber-muted text-[10px]">ENCRYPTED_TLS</span>
+              <span className="text-cyber-muted text-[10px]">DIRECT INBOX</span>
             </div>
 
             {submittedSuccessfully ? (
@@ -273,7 +272,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onAddToast }) =>
                   <CheckCircle2 className="w-8 h-8" />
                 </div>
                 <h4 className="font-heading text-2xl font-bold text-white">
-                  Transmission Dispatched Successfully!
+                  Message Sent Successfully!
                 </h4>
                 <p className="text-cyber-muted text-sm max-w-md mx-auto">
                   Thank you for reaching out, {formData.name}. I will review your message and
@@ -286,7 +285,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onAddToast }) =>
                   }}
                   className="mt-4 px-5 py-2.5 rounded-lg bg-cyber-card border border-cyber-cardBorder text-xs font-mono text-white hover:border-cyber-red/60 transition-colors"
                 >
-                  SEND ANOTHER TRANSMISSION
+                  SEND ANOTHER MESSAGE
                 </button>
               </div>
             ) : (

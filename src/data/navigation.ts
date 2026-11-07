@@ -1,15 +1,16 @@
 export interface NavItem {
   label: string;
   href: string;
-  terminalCode: string;
+  code: string;
 }
 
 export const navItems: NavItem[] = [
-  { label: "About", href: "#about", terminalCode: "//01.00 SEC_ABOUT_INDEX" },
-  { label: "Skills", href: "#skills", terminalCode: "//02.00 SEC_STACK_CORE" },
-  { label: "Projects", href: "#projects", terminalCode: "//03.00 SEC_PROJECTS_EXEC" },
-  { label: "Education", href: "#education", terminalCode: "//04.00 SEC_ACADEMIC_REC" },
-  { label: "Journey", href: "#journey", terminalCode: "//05.00 SEC_JOURNEY_LOG" },
-  { label: "Contact", href: "#contact", terminalCode: "//06.00 SEC_CONTACT_DISP" },
+  { label: "About", href: "#about", code: "01" },
+  { label: "Skills", href: "#skills", code: "02" },
+  { label: "Projects", href: "#projects", code: "03" },
+  { label: "Education", href: "#education", code: "04" },
+  { label: "Journey", href: "#journey", code: "05" },
+  { label: "Contact", href: "#contact", code: "06" },
 ];
+
 

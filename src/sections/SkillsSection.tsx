@@ -37,7 +37,6 @@ export const SkillsSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <TerminalSectionHeader
           badge="TECHNOLOGY STACK"
-          terminalCode="//02.00 SEC_STACK_CORE"
           title="Practical Skills & Engineering Toolkit."
           highlightWord="Engineering Toolkit"
           description="Real tools and frameworks applied across software projects, deep learning experiments, and cloud infrastructure. Grouped by technical domains."
@@ -103,8 +102,8 @@ export const SkillsSection: React.FC = () => {
 
               {/* Bottom Card Footer */}
               <div className="mt-5 pt-3 border-t border-white/5 flex items-center justify-between font-mono text-[10px] text-cyber-dim">
-                <span>VERIFIED_STACK</span>
-                <span className="text-cyber-muted">PRACTICAL USE</span>
+                <span>PRACTICAL STACK</span>
+                <span className="text-cyber-muted">VERIFIED SKILLS</span>
               </div>
             </motion.div>
           ))}

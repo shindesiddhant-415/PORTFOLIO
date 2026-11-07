@@ -10,7 +10,7 @@ export interface ArchitectureNode {
 export interface FeaturedProject {
   id: string;
   sysId: string;
-  category: "AI / COMPUTER VISION" | "OFFLINE AI / SIH HACKATHON" | "EMBEDDED SYSTEMS / IOT";
+  category: "AI • COMPUTER VISION" | "OFFLINE AI • SIH HACKATHON" | "EMBEDDED SYSTEMS • IOT" | string;
   filterCategory: "AI-ML" | "Web" | "Cloud-Linux" | "Hardware";
   title: string;
   tagline: string;
@@ -42,8 +42,8 @@ export interface MatrixProject {
 export const featuredProjects: FeaturedProject[] = [
   {
     id: "sovereign-ai-workbench",
-    sysId: "#SYS-01",
-    category: "OFFLINE AI / SIH HACKATHON",
+    sysId: "01",
+    category: "OFFLINE AI • SIH HACKATHON",
     filterCategory: "AI-ML",
     title: "Sovereign On-Premise AI Workbench",
     tagline: "Air-gapped, zero-network confidential AI assistant built for Smart India Hackathon (MRPL PS 26117).",
@@ -80,8 +80,8 @@ export const featuredProjects: FeaturedProject[] = [
   },
   {
     id: "smart-crop-detection",
-    sysId: "#SYS-02",
-    category: "AI / COMPUTER VISION",
+    sysId: "02",
+    category: "AI • COMPUTER VISION",
     filterCategory: "AI-ML",
     title: "AI-Powered Smart Crop Disease Detection & Advisory",
     tagline: "Agricultural diagnostic platform using Transfer Learning with MobileNetV2 to identify crop diseases.",
@@ -110,8 +110,8 @@ export const featuredProjects: FeaturedProject[] = [
   },
   {
     id: "arduino-game-controller",
-    sysId: "#SYS-03",
-    category: "EMBEDDED SYSTEMS / IOT",
+    sysId: "03",
+    category: "EMBEDDED SYSTEMS • IOT",
     filterCategory: "Hardware",
     title: "Arduino Python Game Controller & Wireless Remote",
     tagline: "Custom hardware game controller bridging physical joystick inputs with PC gaming and wireless phone remote.",
@@ -146,10 +146,10 @@ export const featuredProjects: FeaturedProject[] = [
 export const matrixProjects: MatrixProject[] = [
   {
     id: "sovereign-ai-sys",
-    sysId: "#SYS-01",
+    sysId: "01",
     title: "Sovereign On-Premise AI Workbench",
     category: "AI-ML",
-    categoryLabel: "SIH Hackathon // Offline AI",
+    categoryLabel: "SIH Hackathon • Offline AI",
     description: "Air-gapped, zero-network industrial AI assistant using Ollama local LLMs, ChromaDB RAG, and network-isolated Docker sandbox.",
     features: ["SIH MRPL 26117", "ChromaDB RAG", "Docker (--network none)", "Tesseract OCR"],
     stack: ["Python", "Streamlit", "Ollama", "ChromaDB", "Docker"],
@@ -158,7 +158,7 @@ export const matrixProjects: MatrixProject[] = [
   },
   {
     id: "crop-ai-sys",
-    sysId: "#SYS-02",
+    sysId: "02",
     title: "AI Crop Disease Detection",
     category: "AI-ML",
     categoryLabel: "Computer Vision",
@@ -170,7 +170,7 @@ export const matrixProjects: MatrixProject[] = [
   },
   {
     id: "arduino-ctrl-sys",
-    sysId: "#SYS-03",
+    sysId: "03",
     title: "Arduino Joystick PC Controller",
     category: "Hardware",
     categoryLabel: "Embedded & IoT",
@@ -182,7 +182,7 @@ export const matrixProjects: MatrixProject[] = [
   },
   {
     id: "video-game-sales-sys",
-    sysId: "#SYS-04",
+    sysId: "04",
     title: "Video Game Sales Analytics Dashboard",
     category: "Web",
     categoryLabel: "Data Visualization",
@@ -194,7 +194,7 @@ export const matrixProjects: MatrixProject[] = [
   },
   {
     id: "cisco-network-sys",
-    sysId: "#SYS-05",
+    sysId: "05",
     title: "Networking & Security Infrastructure Lab",
     category: "Cloud-Linux",
     categoryLabel: "Systems & Security",
@@ -206,10 +206,10 @@ export const matrixProjects: MatrixProject[] = [
   },
   {
     id: "dsa-cpp-sys",
-    sysId: "#SYS-06",
+    sysId: "06",
     title: "C++ Data Structures & Algorithms (150+ Solved)",
     category: "AI-ML",
-    categoryLabel: "Algorithms // C++",
+    categoryLabel: "Algorithms • C++",
     description: "Over 150+ problems solved across CodeChef and LeetCode covering dynamic programming, trees, graphs, and Big-O optimization.",
     features: ["150+ Problems Solved", "CodeChef & LeetCode", "Time & Space Analysis", "Modern C++"],
     stack: ["C++17", "STL", "Data Structures", "Algorithms"],

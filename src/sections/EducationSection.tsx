@@ -12,7 +12,6 @@ export const EducationSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <TerminalSectionHeader
           badge="ACADEMIC BACKGROUND"
-          terminalCode="//04.00 SEC_ACADEMIC_REC"
           title="Formal Engineering Education & Foundation."
           highlightWord="Engineering Education"
           description="Pursuing a Bachelor of Technology in Computer Science Engineering with strong emphasis on algorithmic rigor and modern computer science systems."
@@ -30,7 +29,7 @@ export const EducationSection: React.FC = () => {
               <div className="flex items-center gap-2">
                 <GraduationCap className="w-4 h-4 text-cyber-red" />
                 <span className="text-white font-bold tracking-wider">
-                  DEGREE_PROGRAM // SPPU_ACCREDITED
+                  SPPU ACCREDITED DEGREE
                 </span>
               </div>
               <div className="flex items-center gap-2">
@@ -38,7 +37,7 @@ export const EducationSection: React.FC = () => {
                   CGPA: {education.cgpa}
                 </span>
                 <span className="text-emerald-400 font-semibold text-[11px] bg-emerald-950/60 border border-emerald-500/30 px-2.5 py-0.5 rounded">
-                  ENROLLED // GOOD STANDING
+                  ENROLLED • MIT AOE PUNE
                 </span>
               </div>
             </div>
@@ -74,7 +73,7 @@ export const EducationSection: React.FC = () => {
               <div className="pt-6 border-t border-white/5 space-y-3">
                 <div className="font-mono text-xs uppercase tracking-wider text-cyber-dim flex items-center gap-1.5 font-semibold">
                   <BookOpen className="w-3.5 h-3.5 text-cyber-cyan" />
-                  KEY CURRICULAR EMPHASES
+                  ACADEMIC FOCUS
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -95,7 +94,7 @@ export const EducationSection: React.FC = () => {
               {/* Coursework Modules */}
               <div className="pt-4 border-t border-white/5">
                 <div className="font-mono text-xs text-cyber-dim uppercase tracking-wider mb-2.5">
-                  CORE TECHNICAL SUBJECTS
+                  CORE SUBJECTS
                 </div>
                 <div className="flex flex-wrap gap-2">
                   {[

@@ -38,7 +38,6 @@ export const FeaturedProjectsSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <TerminalSectionHeader
           badge="FEATURED PROJECTS"
-          terminalCode="//03.00 SEC_PROJECTS_EXEC"
           title="Engineered Systems & Applied Software."
           highlightWord="Engineered Systems"
           description="Detailed deep-dives into core projects built end-to-end: spanning deep learning computer vision, embedded hardware serial control, and cloud systems."
@@ -70,7 +69,7 @@ export const FeaturedProjectsSection: React.FC = () => {
                   </span>
 
                   <span className="text-cyber-muted text-[11px] font-bold">
-                    {project.sysId}
+                    PROJ #{project.sysId}
                   </span>
                 </div>
 
@@ -147,7 +146,7 @@ export const FeaturedProjectsSection: React.FC = () => {
                   <div className="lg:col-span-7 space-y-3">
                     <div className="font-mono text-xs text-cyber-dim uppercase tracking-wider flex items-center gap-1.5 font-semibold">
                       <Terminal className="w-3.5 h-3.5 text-cyber-red" />
-                      KEY ARCHITECTURAL FEATURES
+                      KEY FEATURES
                     </div>
                     <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 font-sans text-xs sm:text-sm text-zinc-300">
                       {project.features.map((feature, idx) => (
@@ -163,7 +162,7 @@ export const FeaturedProjectsSection: React.FC = () => {
                   <div className="lg:col-span-5 space-y-3">
                     <div className="font-mono text-xs text-cyber-dim uppercase tracking-wider flex items-center gap-1.5 font-semibold">
                       <Layers className="w-3.5 h-3.5 text-cyber-cyan" />
-                      SYSTEM TECHNOLOGY STACK
+                      TECHNOLOGY STACK
                     </div>
                     <div className="flex flex-wrap gap-2">
                       {project.stack.map((tech) => (

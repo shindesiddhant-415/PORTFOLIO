@@ -16,7 +16,7 @@ export interface SkillCategory {
 export const skillCategories: SkillCategory[] = [
   {
     id: "languages",
-    sysCode: "SYS.LANG_01",
+    sysCode: "CORE LANGUAGES",
     title: "Programming Languages",
     description: "Core languages used for problem-solving, algorithms, backend logic, and systems programming.",
     iconName: "Code2",
@@ -28,7 +28,7 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     id: "frontend",
-    sysCode: "SYS.FE_02",
+    sysCode: "FRONTEND",
     title: "Frontend Engineering",
     description: "Crafting responsive, accessible, high-performance web user interfaces.",
     iconName: "Layout",
@@ -42,7 +42,7 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     id: "backend",
-    sysCode: "SYS.BE_03",
+    sysCode: "BACKEND",
     title: "Backend Development",
     description: "Building reliable APIs, server runtime services, and hardware-interfacing microservices.",
     iconName: "Server",
@@ -55,7 +55,7 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     id: "database",
-    sysCode: "SYS.DB_04",
+    sysCode: "DATABASE",
     title: "Database Systems",
     description: "Structured and document-based data persistence and schema management.",
     iconName: "Database",
@@ -67,7 +67,7 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     id: "ai-ml",
-    sysCode: "SYS.ML_05",
+    sysCode: "AI & ML",
     title: "AI / Machine Learning",
     description: "Designing neural networks, computer vision pipelines, and intelligent classification models.",
     iconName: "BrainCircuit",
@@ -82,7 +82,7 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     id: "cloud-os",
-    sysCode: "SYS.OPS_06",
+    sysCode: "CLOUD & LINUX",
     title: "Cloud & Operating Systems",
     description: "Cloud computing infrastructure, Linux system administration, and version control workflows.",
     iconName: "Cloud",

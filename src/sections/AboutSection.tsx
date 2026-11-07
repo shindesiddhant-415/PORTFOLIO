@@ -10,7 +10,6 @@ export const AboutSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <TerminalSectionHeader
           badge="ABOUT ME"
-          terminalCode="//01.00 SEC_ABOUT_INDEX"
           title="Engineering Practical Solutions Through Code."
           highlightWord="Practical Solutions"
           description="A Computer Science Engineering student focused on building real systems rather than just memorizing theoretical concepts."
@@ -27,7 +26,7 @@ export const AboutSection: React.FC = () => {
             >
               <div className="flex items-center gap-2 font-mono text-xs text-cyber-red pb-2 border-b border-white/5">
                 <Terminal className="w-4 h-4" />
-                <span>PROFILE_NARRATIVE // BACKGROUND</span>
+                <span>BACKGROUND &amp; OVERVIEW</span>
               </div>
 
               <p className="text-zinc-200 text-base sm:text-lg leading-relaxed font-sans">
@@ -98,16 +97,16 @@ export const AboutSection: React.FC = () => {
                 <div className="flex items-center gap-2">
                   <span className="w-2 h-2 rounded-full bg-cyber-red" />
                   <span className="text-white font-bold tracking-wider text-[11px]">
-                    SYS_SPEC // STUDENT_METRICS
+                    STUDENT &amp; ACADEMIC PROFILE
                   </span>
                 </div>
-                <span className="text-cyber-dim text-[10px]">HOST: mit-aoe-pune</span>
+                <span className="text-cyber-dim text-[10px]">MIT AOE, PUNE</span>
               </div>
 
               {/* Terminal Properties */}
               <div className="p-5 space-y-3.5">
                 <div>
-                  <div className="text-cyber-dim text-[10px] uppercase">IDENTITY_RECORD</div>
+                  <div className="text-cyber-dim text-[10px] uppercase">FULL NAME</div>
                   <div className="text-white font-semibold text-sm mt-0.5">{profileData.name}</div>
                 </div>
 
@@ -167,9 +166,9 @@ export const AboutSection: React.FC = () => {
               </div>
 
               {/* Bottom status badge */}
-              <div className="px-4 py-2.5 bg-black/60 border-t border-white/5 flex items-center justify-between text-[10px] text-cyber-muted">
-                <span>STATUS: AMBITIOUS & BUILDING</span>
-                <span className="text-cyber-cyan">ACTIVE LEARNER</span>
+              <div className="px-4 py-2.5 bg-black/60 border-t border-white/5 flex items-center justify-between text-[10px] font-mono text-cyber-muted">
+                <span>STATUS: OPEN TO INTERNSHIPS</span>
+                <span className="text-emerald-400">GOOD STANDING</span>
               </div>
             </motion.div>
           </div>

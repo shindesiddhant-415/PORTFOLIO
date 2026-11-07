@@ -22,10 +22,10 @@ export const ProjectMatrixSection: React.FC = () => {
           <div>
             <div className="flex items-center gap-2 font-mono text-xs text-cyber-red mb-2">
               <span className="w-1.5 h-1.5 rounded-full bg-cyber-red animate-ping" />
-              <span>PROJECT_MATRIX // REGISTRY_INDEX</span>
+              <span>PROJECT DIRECTORY</span>
             </div>
             <h3 className="font-heading text-2xl sm:text-3xl font-bold text-white tracking-tight">
-              All Engineered Systems & Experiments
+              All Projects & Learning Labs
             </h3>
             <p className="text-cyber-muted text-sm mt-1">
               Explore the complete directory of projects, laboratories, and algorithms by domain.
@@ -73,7 +73,7 @@ export const ProjectMatrixSection: React.FC = () => {
                   {/* Top bar with Sys ID & Category Chip */}
                   <div className="flex items-center justify-between pb-3 mb-3 border-b border-white/5 font-mono text-xs">
                     <span className="text-cyber-red font-bold text-xs tracking-wider">
-                      {project.sysId}
+                      PROJ #{project.sysId}
                     </span>
 
                     <span

@@ -20,7 +20,7 @@ export const DuotoneAvatar: React.FC<DuotoneAvatarProps> = ({ photoSrc = "/profi
         <div className="flex items-center justify-between px-4 py-2.5 bg-black/60 border-b border-cyber-cardBorder text-xs font-mono">
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-cyber-red" />
-            <span className="text-cyber-muted tracking-wider text-[11px]">PORTRAIT_ID // SYS_ARCH</span>
+            <span className="text-white font-medium tracking-wider text-[11px]">SIDDHANT SHINDE</span>
           </div>
           <div className="flex items-center gap-1.5 text-emerald-400 font-semibold text-[11px] tracking-wide">
             <span className="relative flex h-2 w-2">
@@ -94,7 +94,7 @@ export const DuotoneAvatar: React.FC<DuotoneAvatarProps> = ({ photoSrc = "/profi
               <MapPin className="w-3.5 h-3.5 text-cyber-red" />
               <span>ACADEMIC BASE</span>
             </div>
-            <span className="text-white font-medium text-[11px]">MIT AOE // CGPA 8.34</span>
+            <span className="text-white font-medium text-[11px]">MIT AOE • CGPA 8.34</span>
           </div>
 
           {/* Mini Card 2 */}

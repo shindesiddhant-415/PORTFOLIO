@@ -17,7 +17,7 @@ export const journeyBlocks: JourneyBlock[] = [
     badge: "HACKATHONS",
     period: "2025 - 2026",
     summary:
-      "Engineered competitive real-world AI systems under national hackathon constraints, focusing on offline resilience, RAG pipelines, and local LLMs.",
+      "Engineered competitive real-world AI systems under national hackathon constraints, focusing on offline resilience, document intelligence, and local LLMs.",
     keyPoints: [
       "Built 'Sovereign On-Premise AI Workbench' for SIH Problem Statement 26117 (MRPL), verified to operate with zero network access.",
       "Participated in the Adobe University Hackathon (Aug 2026) collaborating on rapid software prototyping.",

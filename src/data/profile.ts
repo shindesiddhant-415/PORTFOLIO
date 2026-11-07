@@ -42,12 +42,12 @@ export interface ProfileData {
 export const profileData: ProfileData = {
   name: "Siddhant Shinde",
   initials: "SS",
-  roleBadge: "B.TECH CSE @ MIT AOE | AI/ML & SYSTEMS DEVELOPER",
+  roleBadge: "B.TECH CSE STUDENT @ MIT AOE | SOFTWARE & CLOUD",
   statusBadge: "OPEN TO INTERNSHIPS & COLLABORATIONS",
   statusAvailable: true,
   tagline:
-    "I build practical software solutions, intelligent systems, and offline AI workflows—combining full-stack engineering, local LLMs/RAG, and cloud technologies to solve real-world problems.",
-  bio: "I'm a third-year Computer Science Engineering student at MIT Academy of Engineering, Pune (CGPA: 8.34/10), passionate about software engineering, competitive programming, and applied AI systems. I've built offline industrial AI assistants for Smart India Hackathon, deep learning crop diagnostics platforms, and custom Arduino serial controllers. With 150+ problems solved on LeetCode and exposure to Linux, Docker, and AWS, I am actively seeking internship opportunities to contribute and deepen my engineering skills.",
+    "I am a Computer Science Engineering student building practical software, working with intelligent systems, and developing a strong foundation in full-stack engineering and cloud technologies.",
+  bio: "I'm a Computer Science Engineering student at MIT Academy of Engineering, Pune (Savitribai Phule Pune University, Class of 2028, CGPA: 8.34/10), passionate about software development, competitive programming, and applied AI. I've built an air-gapped industrial AI assistant for Smart India Hackathon (MRPL PS 26117), a transfer-learning crop diagnostics web app, and an Arduino-based serial game controller. With 150+ problems solved on LeetCode and exposure to Linux, Docker, and AWS, I am actively seeking internship opportunities to contribute and deepen my engineering skills.",
   philosophy: "Don't just learn the technology. Build something meaningful with it.",
   avatarUrl: "/profile.jpg",
   resumeUrl: "/resume.pdf",

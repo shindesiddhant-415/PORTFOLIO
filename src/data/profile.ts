@@ -84,9 +84,9 @@ export const profileData: ProfileData = {
   },
   focusAreas: [
     "Competitive Programming & DSA (C++)",
-    "Applied AI, Local LLMs & RAG (Ollama, ChromaDB)",
+    "Applied AI & Local LLMs (Ollama)",
     "Full-Stack Development (React, Node.js, Flask)",
-    "Cloud Infrastructure, Linux & Docker Security",
+    "Cloud & Linux Administration (Currently Learning AWS)",
   ],
   contact: {
     email: "shindesiddhant415@gmail.com",

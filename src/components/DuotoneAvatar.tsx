@@ -98,12 +98,14 @@ export const DuotoneAvatar: React.FC<DuotoneAvatarProps> = ({ photoSrc = "/profi
           </div>
 
           {/* Mini Card 2 */}
-          <div className="flex items-center justify-between p-2.5 rounded-lg bg-cyber-card/90 border border-white/5 hover:border-cyber-red/30 transition-colors text-xs font-mono">
-            <div className="flex items-center gap-2 text-cyber-muted">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between p-2.5 rounded-lg bg-cyber-card/90 border border-white/5 hover:border-cyber-red/30 transition-colors text-xs font-mono gap-1">
+            <div className="flex items-center gap-2 text-cyber-muted shrink-0">
               <Brain className="w-3.5 h-3.5 text-cyber-cyan" />
               <span>PRIMARY FOCUS</span>
             </div>
-            <span className="text-white font-medium text-[11px]">Local LLMs, RAG & Full-Stack</span>
+            <span className="text-white font-medium text-[11px] sm:text-right">
+              Local LLMs, Full-Stack, Linux &amp; Cloud <span className="text-cyber-cyan text-[10px]">(Learning AWS)</span>
+            </span>
           </div>
 
           {/* Mini Card 3 */}

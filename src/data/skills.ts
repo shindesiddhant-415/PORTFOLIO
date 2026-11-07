@@ -87,9 +87,9 @@ export const skillCategories: SkillCategory[] = [
     description: "Cloud computing infrastructure, Linux system administration, and version control workflows.",
     iconName: "Cloud",
     skills: [
-      { name: "AWS", tag: "S3, Athena, CloudFront", isPrimary: true },
       { name: "Linux", tag: "Kernel, Shell & CLI", isPrimary: true },
-      { name: "Ubuntu", tag: "Server Administration" },
+      { name: "Ubuntu", tag: "Server Administration", isPrimary: true },
+      { name: "AWS", tag: "Currently Learning", isPrimary: true },
       { name: "Cloud Infrastructure", tag: "Storage & Distribution" },
       { name: "Git & GitHub", tag: "VCS & Collaboration" },
     ],

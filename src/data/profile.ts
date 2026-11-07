@@ -47,15 +47,15 @@ export const profileData: ProfileData = {
   statusAvailable: true,
   tagline:
     "I build practical software solutions, intelligent systems, and offline AI workflows—combining full-stack engineering, local LLMs/RAG, and cloud technologies to solve real-world problems.",
-  bio: "I'm a third-year Computer Science Engineering student at MIT Academy of Engineering, Pune (CGPA: 8.34/10), passionate about software engineering, competitive programming, and applied AI systems. I've built offline industrial AI assistants for Smart India Hackathon, deep learning crop diagnostics platforms, and custom Arduino serial controllers. With 150+ DSA problems solved and exposure to Linux, Docker, and AWS, I am actively seeking internship opportunities to contribute and deepen my engineering skills.",
+  bio: "I'm a third-year Computer Science Engineering student at MIT Academy of Engineering, Pune (CGPA: 8.34/10), passionate about software engineering, competitive programming, and applied AI systems. I've built offline industrial AI assistants for Smart India Hackathon, deep learning crop diagnostics platforms, and custom Arduino serial controllers. With 150+ problems solved on LeetCode and exposure to Linux, Docker, and AWS, I am actively seeking internship opportunities to contribute and deepen my engineering skills.",
   philosophy: "Don't just learn the technology. Build something meaningful with it.",
   avatarUrl: "/profile.jpg",
   resumeUrl: "/resume.pdf",
   stats: [
     {
       value: "150+",
-      label: "DSA Problems Solved",
-      helper: "LeetCode & CodeChef",
+      label: "LeetCode Problems Solved",
+      helper: "LeetCode (Siddhant-415)",
     },
     {
       value: "8.34",
@@ -78,7 +78,7 @@ export const profileData: ProfileData = {
     status: "Enrolled in Good Standing (CGPA: 8.34)",
     highlights: [
       "Consistent academic record with CGPA 8.34/10 in core computer engineering coursework.",
-      "150+ DSA problems solved across CodeChef and LeetCode with strong problem-solving fundamentals in C++.",
+      "150+ DSA problems solved on LeetCode with strong problem-solving fundamentals in C++.",
       "Practical project track record: Smart India Hackathon offline AI workbench, plant disease diagnostics, and Cisco/IBM internships.",
     ],
   },
@@ -86,7 +86,7 @@ export const profileData: ProfileData = {
     "Competitive Programming & DSA (C++)",
     "Applied AI & Local LLMs (Ollama)",
     "Full-Stack Development (React, Node.js, Flask)",
-    "Cloud & Linux Administration (Currently Learning AWS)",
+    "Cloud Infrastructure & Linux Systems",
   ],
   contact: {
     email: "shindesiddhant415@gmail.com",

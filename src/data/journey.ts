@@ -29,17 +29,17 @@ export const journeyBlocks: JourneyBlock[] = [
   {
     id: "journey-cp",
     category: "COMPETITIVE",
-    title: "Competitive Programming: 150+ Problems Solved",
+    title: "Competitive Programming: 150+ Problems Solved on LeetCode",
     badge: "PROBLEM SOLVING",
     period: "2024 - PRESENT",
     summary:
-      "Consistent algorithmic practice across CodeChef and LeetCode, mastering time and space complexity, dynamic programming, and data structures in C++.",
+      "Consistent algorithmic practice on LeetCode, mastering time and space complexity, dynamic programming, and data structures in C++.",
     keyPoints: [
-      "150+ problems solved across CodeChef and LeetCode with consistent practice in modern C++.",
+      "150+ problems solved on LeetCode with consistent practice in modern C++.",
       "Deep focus on linear structures, binary search, tree traversals, and asymptotic complexity (Big-O).",
-      "Profile and solved problem repository tracked on Codolio (codolio.com/profile/Siddhant415).",
+      "Profile and solved problem repository tracked on Codolio (codolio.com/profile/Siddhant415) and LeetCode.",
     ],
-    tags: ["C++17", "CodeChef", "LeetCode", "Data Structures", "Algorithms"],
+    tags: ["C++17", "LeetCode", "Data Structures", "Algorithms", "CodeChef"],
   },
   {
     id: "journey-internships",

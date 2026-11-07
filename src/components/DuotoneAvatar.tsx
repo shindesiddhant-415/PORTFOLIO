@@ -98,13 +98,13 @@ export const DuotoneAvatar: React.FC<DuotoneAvatarProps> = ({ photoSrc = "/profi
           </div>
 
           {/* Mini Card 2 */}
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between p-2.5 rounded-lg bg-cyber-card/90 border border-white/5 hover:border-cyber-red/30 transition-colors text-xs font-mono gap-1">
-            <div className="flex items-center gap-2 text-cyber-muted shrink-0">
+          <div className="flex items-center justify-between p-2.5 rounded-lg bg-cyber-card/90 border border-white/5 hover:border-cyber-red/30 transition-colors text-xs font-mono">
+            <div className="flex items-center gap-2 text-cyber-muted">
               <Brain className="w-3.5 h-3.5 text-cyber-cyan" />
               <span>PRIMARY FOCUS</span>
             </div>
-            <span className="text-white font-medium text-[11px] sm:text-right">
-              Local LLMs, Full-Stack, Linux &amp; Cloud <span className="text-cyber-cyan text-[10px]">(Learning AWS)</span>
+            <span className="text-white font-medium text-[11px]">
+              Local LLMs, Full-Stack, Cloud &amp; Linux
             </span>
           </div>
 
@@ -115,7 +115,7 @@ export const DuotoneAvatar: React.FC<DuotoneAvatarProps> = ({ photoSrc = "/profi
               <span>ALGORITHMIC</span>
             </div>
             <span className="text-emerald-400 font-medium text-[11px] flex items-center gap-1">
-              <Shield className="w-3 h-3" /> 150+ Solved • CodeChef &amp; LeetCode
+              <Shield className="w-3 h-3" /> 150+ Solved on LeetCode
             </span>
           </div>
         </div>

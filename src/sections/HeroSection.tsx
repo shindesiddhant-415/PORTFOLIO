@@ -138,7 +138,7 @@ export const HeroSection: React.FC = () => {
                     rel="noopener noreferrer"
                     className="p-3 rounded-lg bg-cyber-card border border-cyber-cardBorder/60 text-cyber-muted hover:text-white hover:border-cyber-red/50 transition-colors"
                     aria-label="LeetCode Profile"
-                    title="LeetCode: Siddhant-415"
+                    title="LeetCode: 150+ Solved (Siddhant-415)"
                   >
                     <LeetCodeIcon className="w-4 h-4 text-amber-500" />
                   </a>
@@ -164,7 +164,7 @@ export const HeroSection: React.FC = () => {
                     rel="noopener noreferrer"
                     className="p-3 rounded-lg bg-cyber-card border border-cyber-cardBorder/60 text-cyber-muted hover:text-white hover:border-cyber-red/50 transition-colors"
                     aria-label="CodeChef Profile"
-                    title="CodeChef: 150+ Solved"
+                    title="CodeChef: siddhant415"
                   >
                     <CodeChefIcon className="w-4 h-4 text-amber-400" />
                   </a>

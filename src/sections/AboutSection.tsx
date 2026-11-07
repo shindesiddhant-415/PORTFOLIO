@@ -138,7 +138,7 @@ export const AboutSection: React.FC = () => {
                     <div className="text-cyber-red font-bold text-xs mt-0.5">Class of 2028</div>
                   </div>
                   <div>
-                    <div className="text-cyber-dim text-[10px] uppercase">DSA PROBLEMS</div>
+                    <div className="text-cyber-dim text-[10px] uppercase">LEETCODE</div>
                     <div className="text-emerald-400 font-bold text-xs mt-0.5">150+ Solved</div>
                   </div>
                 </div>

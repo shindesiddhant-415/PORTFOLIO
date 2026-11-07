@@ -89,8 +89,8 @@ export const skillCategories: SkillCategory[] = [
     skills: [
       { name: "Linux", tag: "Kernel, Shell & CLI", isPrimary: true },
       { name: "Ubuntu", tag: "Server Administration", isPrimary: true },
-      { name: "AWS", tag: "Currently Learning", isPrimary: true },
-      { name: "Cloud Infrastructure", tag: "Storage & Distribution" },
+      { name: "AWS", tag: "Cloud Infrastructure", isPrimary: true },
+      { name: "Cloud Services", tag: "Storage & Distribution" },
       { name: "Git & GitHub", tag: "VCS & Collaboration" },
     ],
   },
